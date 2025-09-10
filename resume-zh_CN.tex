@@ -1,0 +1,84 @@
+% !TEX TS-program = xelatex
+% !TEX encoding = UTF-8 Unicode
+% !Mode:: "TeX:UTF-8"
+
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external} % Simplified Chinese Support using external fonts (./fonts/zh_CN-Adobe/)
+%\usepackage{zh_CN-Adobefonts_internal} % Simplified Chinese Support using system fonts
+\usepackage{linespacing_fix} % disable extra space before next section
+\usepackage{cite}
+
+\begin{document}
+\pagenumbering{gobble} % suppress displaying page number
+
+\name{吴思兴}
+
+\basicInfo{
+  \email{shugoforgml@gmail.com} \textperiodcentered\ 
+  \phone{(+86) 180-6057-0063} \textperiodcentered\ 
+  \linkedin[]}
+ 
+\section{\faGraduationCap  教育背景}
+\datedsubsection{\textbf{闽江学院}, 福州}{2017 -- 2021}
+\textit{学士}\ 软件工程
+
+\section{\faUsers\ 实习/项目经历}
+\datedsubsection{\textbf{福州掌中云科技有限公司} 福州}{2021年6月 -- 2021年8月}
+\role{php后端开发}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 负责微信小程序阅读平台的后端API设计与开发，保障接口的高可用性与安全性
+  \item 使用PHP进行业务逻辑开发，主要模块包括用户登录、书籍信息管理、阅读进度同步及支付接口对接
+  \item 参与前端部分页面的开发与数据渲染，实现前后端高效协作
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{福州热游网络科技有限公司}}{2021年8月 -- 2025年1月}
+\role{中台、游戏服务端}
+\begin{onehalfspacing}
+\begin{itemize}
+  \item 负责游戏中台部门技术规划与团队协作，主导游戏账服系统、数据中台及运维工具链的建设
+  \item 使用PHP重构并维护高可用游戏账服系统，稳定服务多款线上游戏
+  \item 负责基于Golang和PHP的数据统计平台与运维支持系统的功能迭代与性能维护
+  \item 与两个游戏项目后端的开发与迭代，并独立开发前端通用联想输入组件，提升了用户操作效率
+  \item 设计实现基于OAuth2的统一认证鉴权体系，解决了各平台认证方式不一的痛点，提升了内部系统安全性
+\end{itemize}
+\end{onehalfspacing}
+
+\datedsubsection{\textbf{上海共识引擎网络科技有限公司}}{2025年1月 -- 至今}
+\role{后端开发}
+\begin{onehalfspacing}
+优雅的 \LaTeX\ 简历模板, https://github.com/billryan/resume
+\begin{itemize}
+  \item 容易定制和扩展
+  \item 完善的 Unicode 字体支持，使用 \XeLaTeX\ 编译
+  \item 支持 FontAwesome 4.5.0
+\end{itemize}
+\end{onehalfspacing}
+
+% Reference Test
+%\datedsubsection{\textbf{Paper Title\cite{zaharia2012resilient}}}{May. 2015}
+%An xxx optimized for xxx\cite{verma2015large}
+%\begin{itemize}
+%  \item main contribution
+%\end{itemize}
+
+\section{\faCogs\ IT 技能}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item 编程语言: golang == php > solidity == python == javascript... 
+  \item 平台: linux、windows
+  \item 云平台: 腾讯云、阿里云
+\end{itemize}
+
+\section{\faInfo\ 其他}
+% increase linespacing [parsep=0.5ex]
+\begin{itemize}[parsep=0.5ex]
+  \item GitHub: https://github.com/shugoforgit
+\end{itemize}
+
+%% Reference
+%\newpage
+%\bibliographystyle{IEEETran}
+%\bibliography{mycite}
+\end{document}
